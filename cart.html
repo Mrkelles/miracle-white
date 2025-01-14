@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+</head>
+<body>
+     <h1 class="bg-black py-2 font-semibold text-center text-white">PROMO!!! Order Today To Get A 20% Discount & Free Delivery</h1>
+
+    <section class="text-center space-y-2 py-2 px-4">
+        <h1 class="text-3xl md:text-4xl font-bold p-4 text-black">Place Your Order Now To Get Free Delivery!</h1>
+        <h1 class="text-xl mdtext-2xl font-semibold text-black">HOW TO PLACE YOUR ORDER:</h1>
+        <p class="uppercase">Please fill in the form below and our delivery personnel will contact you with your package.</p>
+        <p>PLEASE DO NOT FILL THE FORM IF YOU NOT READY TO RECEIVE AND PAY FOR YOUR PACKAGE OR IF YOU WILL BE TRAVELLING OUT OF TOWN</p>
+    </section>
+
+    <div class="flex justify-self-center my-10">
+
+
+            <!--  ----------------------------------------------------------------------  -->
+            <!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+            <!--  If necessary, please modify the charset parameter to specify the        -->
+            <!--  character set of your HTML page.                                        -->
+            <!--  ----------------------------------------------------------------------  -->
+
+            <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+            <!--  ----------------------------------------------------------------------  -->
+            <!--  NOTE: Please add the following <FORM> element to your page.             -->
+            <!--  ----------------------------------------------------------------------  -->
+
+            <form class="border border-black p-10 rounded-3xl" action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8&orgId=00D8d000008CiNS" method="POST">
+
+            <input type=hidden name="orgid" value="00D8d000008CiNS">
+            <input type=hidden name="retURL" value="https://miracle-white.vercel.app/success.html">
+
+            <!--  ----------------------------------------------------------------------  -->
+            <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+            <!--  these lines if you wish to test in debug mode.                          -->
+            <!--  <input type="hidden" name="debug" value=1>                              -->
+            <!--  <input type="hidden" name="debugEmail"                                  -->
+            <!--  value="kelvindigitarian@gmail.com">                                     -->
+            <!--  ----------------------------------------------------------------------  -->
+
+            <br><input placeholder=" Name" id="00NJ7000000lOzQ" maxlength="100" name="00NJ7000000lOzQ" size="50" type="text" class="border border-black rounded" /><br>
+
+            <br><input placeholder=" Phone Number" id="00NJ7000000lOzV" maxlength="20" name="00NJ7000000lOzV" size="50" type="text" class="border border-black rounded" /><br>
+
+            <br><input placeholder=" Whatsapp Number" id="00NJ7000000lOza" maxlength="20" name="00NJ7000000lOza" size="50" type="text" class="border border-black rounded" /><br>
+
+            <br><input placeholder=" Email Address" id="00NJ7000000lOzf" maxlength="80" name="00NJ7000000lOzf" size="50" type="text" class="border border-black rounded" /><br>
+
+            <br><input placeholder=" Delivery Address" id="00NJ7000000lOzk" maxlength="255" name="00NJ7000000lOzk" size="50" type="text" class="border border-black rounded" /><br>
+
+            <br><select class="border border-black text-black rounded w-full" id="00NJ7000000lRMI" name="00NJ7000000lRMI" title="Product Quantity">
+            <option value="">Select Product Quantity</option>
+            <option value="Buy 1 - ₦15,000">Buy 1 - ₦15,000</option>
+            <option value="Buy 2 Get 1 Free(3 Units) - ₦29,000">Buy 2 Get 1 Free(3 Units) - ₦29,000</option>
+            <option value="Buy 3 Get 1 Free(4 Units) - ₦42,000">Buy 3 Get 1 Free(4 Units) - ₦42,000</option>
+            <option value="Buy 4 Get 2 Free(6 Units) - ₦56,000">Buy 4 Get 2 Free(6 Units) - ₦56,000</option>
+            </select><br>
+
+            <input type="submit" class="border text-black border-black rounded-full py-2 px-8 mt-6" name="submit">
+
+            </form>
+
+
+    </div>
+
+    <footer class="mt-10 text-white text-center bg-black px-4 md:px-80 space-y-4 py-4 ">
+        <p class="capitalize">This site is not a part of the facebook website or facebook Inc.Additionally, This site is not endorsed by facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.</p>
+        <h1 class="text-lg font-semibold">&#169 2024, Merchant Stores | Policy | Terms</h1>
+    </footer>
+</body>
+</html>
